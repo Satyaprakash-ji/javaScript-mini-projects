@@ -4,7 +4,6 @@ const input = document.querySelectorAll("input");
 input[0].focus();
 
 input.forEach((inputs, index) => {
-  console.log(inputs);
   inputs.addEventListener("keydown", (e) => {
     if (e.key >= 0 && e.key <= 9) {
       input[index].value = "";
