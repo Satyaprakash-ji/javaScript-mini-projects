@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9fafb;
+    box-shadow: 0 1px 3px 0 rgba(0 0 0 / .1), 0 1px 2px -1px rgba(0 0 0 / .1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#balance h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#balance-amount {
+    color: #28a745;
+}
+
+#transactions h2, #add-transaction h2 {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+input, select, button {
+    display: block;
+    margin-bottom: .5rem;
+}
+label {
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.income {
+    color: #28a745;
+}
+
+.expense {
+    color: #dc3545;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    animation: listItemFadeIn .5s ease-in-out;
+}
