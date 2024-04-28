@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9fafb;
+    box-shadow: 0 1px 3px 0 rgba(0 0 0 / .1), 0 1px 2px -1px rgba(0 0 0 / .1);
+}
+
+.container {
+    width: 90%;
+    margin: 80px auto;
+    text-align: center;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #0006;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.container h1 {
+    font-size: 2rem;
+    color: #ff6b6b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    margin: 10px;
+}
+
+.dice-holder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dice {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dice p {
+    font-size: 32px;
+    color: #ff6b6b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+}
+
+.img1, .img2 {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .4));
+    transition: transform .3s ease-in-out;
+}
+
+.img1:hover, .img2:hover{
+    transform: rotate(180deg)scale(1.1);
+}
+
+button {
+    padding: 5px 20px;
+    margin: 20px;
+    font-size: medium;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ff5757;
+}
